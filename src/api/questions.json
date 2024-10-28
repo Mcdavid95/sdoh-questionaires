@@ -1,0 +1,144 @@
+{
+  "sections": [
+    {
+      "title": "Housing",
+      "questions": [
+        {
+          "id": "housingStability",
+          "text": "Do you have stable housing?",
+          "type": "radio",
+          "options": ["Yes", "No"]
+        },
+        {
+          "id": "housingAffordability",
+          "text": "Is your housing affordable?",
+          "type": "radio",
+          "options": ["Yes", "No"]
+        },
+        {
+          "id": "housingSafety",
+          "text": "Do you feel safe in your home?",
+          "type": "radio",
+          "options": ["Yes", "No"]
+        }
+      ]
+    },
+    {
+      "title": "Food Security",
+      "questions": [
+        {
+          "id": "foodAccess",
+          "text": "Do you have access to enough food?",
+          "type": "radio",
+          "options": ["Yes", "No"]
+        },
+        {
+          "id": "foodAffordability",
+          "text": "Can you afford the food you need?",
+          "type": "radio",
+          "options": ["Yes", "No"]
+        }
+      ]
+    },
+    {
+      "title": "Transportation",
+      "questions": [
+        {
+          "id": "transportationAccess",
+          "text": "Do you have reliable transportation?",
+          "type": "radio",
+          "options": ["Yes", "No"]
+        }
+      ]
+    },
+    {
+      "title": "Social Support",
+      "questions": [
+        {
+          "id": "socialSupport",
+          "text": "Do you have strong social support networks?",
+          "type": "radio",
+          "options": ["Yes", "No"]
+        }
+      ]
+    },
+    {
+      "title": "Employment",
+      "questions": [
+        {
+          "id": "employmentStatus",
+          "text": "Are you currently employed?",
+          "type": "radio",
+          "options": ["Yes", "No"]
+        },
+        {
+          "id": "jobSecurity",
+          "text": "Do you feel secure in your employment?",
+          "type": "radio",
+          "options": ["Yes", "No"]
+        }
+      ]
+    },
+    {
+      "title": "Education",
+      "questions": [
+        {
+          "id": "educationLevel",
+          "text": "What is your highest level of education completed?",
+          "type": "radio",
+          "options": ["Less than High School", "High School Diploma/GED", "Some College", "Bachelor's Degree", "Graduate Degree"]
+        }
+      ]
+    },
+    {
+      "title": "Income",
+      "questions": [
+        {
+          "id": "incomeStability",
+          "text": "Is your income stable?",
+          "type": "radio",
+          "options": ["Yes", "No"]
+        }
+      ]
+    },
+    {
+      "title": "Discrimination",
+      "questions": [
+        {
+          "id": "discriminationExperience",
+          "text": "Have you experienced discrimination in the past year?",
+          "type": "radio",
+          "options": ["Yes", "No"]
+        }
+      ]
+    },
+    {
+      "title": "Safety",
+      "questions": [
+        {
+          "id": "neighborhoodSafety",
+          "text": "Do you feel safe in your neighborhood?",
+          "type": "radio",
+          "options": ["Yes", "No"]
+        }
+      ]
+    },
+    {
+      "title": "Neighborhood & Physical Environment",
+      "questions": [
+        {
+          "id": "environmentalConcerns",
+          "text": "Are there any environmental concerns in your neighborhood (e.g., pollution, lack of clean water)?",
+          "type": "radio",
+          "options": ["Yes", "No"]
+        },
+        {
+          "id": "accessToGreenSpaces",
+          "text": "Do you have access to green spaces or parks?",
+          "type": "radio",
+          "options": ["Yes", "No"]
+        }
+      ]
+    }
+  ]
+}
