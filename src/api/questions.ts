@@ -4,7 +4,7 @@ import { FormData } from "./question.interface";
 export const calculateSDOHscore = (formData: FormData): { scores: Record<string, number>; total: number } => {
   const scores: Record<string, number> = {};
   let totalScore = 0;
-  let sectionScores: Record<string, number> = {};
+  const sectionScores: Record<string, number> = {};
 
   // Housing (max 25 points)
   sectionScores.housing = 0; 
