@@ -191,7 +191,7 @@ const SDOHQuestionnaire: React.FC = () => {
                           name={question.id} 
                           value={option} 
                           onChange={handleChange} 
-                          checked={formData[question.id] === option}
+                          // checked={formData[question.id] === option}
                         />
                         <RadioLabel htmlFor={`${question.id}${option}`}>{option}</RadioLabel>
                       </RadioGroup>
